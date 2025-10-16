@@ -10,6 +10,36 @@
     <link rel="stylesheet" href="css/aos.css" />
     <link rel="stylesheet" href="css/line-awesome.min.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <style>
+      /* Additional CSS for mobile profile picture */
+      .mobile-profile {
+        display: none;
+        text-align: center;
+        padding: 30px 0;
+        background: var(--bg-base);
+      }
+      
+      .mobile-profile img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border: 3px solid var(--brand);
+        margin-top: 20px;
+      
+      }
+      
+      .mobile-profile h3 {
+        margin-top: 15px;
+        color: var(--brand);
+        font-weight: bold;
+      }
+      
+      @media (max-width: 992px) {
+        .mobile-profile {
+          display: block;
+        }
+      }
+    </style>
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar">
 
@@ -20,6 +50,7 @@
         <a class="navbar-brand mx-lg-auto mb-lg-4 " href="#">
             <span class="h3 fw-bold d-block d-lg-none ">Benjie M. Polancos</span>
             <img class="d-none d-lg-block rounded-circle" src="images/me.jpg" alt="">
+
         </a>
         <button
           class="navbar-toggler"
@@ -54,6 +85,12 @@
       </div>
     </nav>
     <!--NAvBAR END-->
+    
+    <!-- Mobile Profile Section -->
+    <div class="mobile-profile">
+      <img src="images/me.jpg" alt="Benjie M. Polancos" class="rounded-circle">
+      <h3>Benjie M. Polancos</h3>
+    </div>
     
     <!--CONTENT-->
     <!--Intro-->
@@ -90,7 +127,7 @@
               <div class="col-lg-8">
                 <h6 class="nice">About Me</h6>
                 <P>
-                 I am Benjie Polancos, a dedicated and hardworking college student currently taking up a Bachelor of Science in Business Administration, majoring in Financial Management. <br><br>I am a working student at St. Mary’s College of Bansalan, Inc., where I strive to balance my studies and work responsibilities with commitment and discipline.
+                 I am Benjie Polancos, a dedicated and hardworking college student currently taking up a Bachelor of Science in Business Administration, majoring in Financial Management. <br><br>I am a working student at St. Mary's College of Bansalan, Inc., where I strive to balance my studies and work responsibilities with commitment and discipline.
 
                 In addition to my main work, I also do sideline jobs to gain extra income and support my education and personal needs. These experiences have helped me become more independent, resourceful, and financially responsible.
 
